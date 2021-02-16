@@ -1,0 +1,12 @@
+@import './css/fonts.scss';
+
+:root {
+  --font-main: 'Open Sans', 'Tahoma', sans-serif;
+}
+
+.app {
+  font-family: var(--font-main);
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 0.1px;
+}
